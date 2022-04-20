@@ -1,70 +1,52 @@
-#Fish abundance
+#Gonad data
 #Load data
-Ngerumekaol_Fish_All<-read.csv(file.choose(),header=T,sep=",")
-names(Ngerumekaol_Fish_All)
+PNMS_Gonad<-read.csv(file.choose(),header=T,sep=",")
+names(PNMS_Gonad)
 
-#Check if abundance data is normally distributed
-hist(Ngerumekaol_Fish_All$Abundance_Total)
-shapiro.test(Ngerumekaol_Fish_Ab_Feeding$Abundance_Total)
-#Not normal
-
-#Check SANS Data
-hist(Ngerumekaol_Fish_All$Abundance_Total)
-shapiro.test(Ngerumekaol_Fish_All$SANS_m2)
-
-Fish.log<-log(Ngerumekaol_Fish_All$SANS_m2+1)
-hist(Fish.log)
-shapiro.test(Fish.log)
-#Still not normal after log transformation
 
 #summary statistics
 # run the script called "SummarySE()_functon.R" then run the code below to get your mean + standard errors
 library(plyr)
-#Total abundance
-data_sum_Total <- summarySE(Ngerumekaol_Fish_All, measurevar="Abundance_Total", groupvars=c("Year", "Protection", "Habitat"))
-data_sum_Total 
-#Abundance per feeding group
-data_sum_Feeding <- summarySE(Ngerumekaol_Fish_All, measurevar="Abundance", groupvars=c("Year", "Protection", "Feeding", "Habitat"))
-data_sum_Feeding
-
-#Total abiomass
-data_sum_Total <- summarySE(Ngerumekaol_Fish_All, measurevar="Total_Biomass", groupvars=c("Year", "Protection", "Habitat"))
-data_sum_Total 
-#Abundance per feeding group
-data_sum_Feeding <- summarySE(Ngerumekaol_Fish_All, measurevar="Total_Biomass", groupvars=c("Year", "Protection", "Feeding", "Habitat"))
-data_sum_Feeding
+library(Rmisc)
+#Fork length
+data_sum_Length <- summarySE(PNMS_Gonad, measurevar="FL_cm", groupvars=c("Sex","Species"))
+data_sum_Length 
+#Weight
+data_sum_Weight<- summarySE(PNMS_Gonad, measurevar="Total_weight_kg", groupvars=c("Sex","Species"))
+data_sum_Weight
 
 
 #Make basic figures
-#All fish data
+
 require(Rmisc)
 require(ggplot2)
-Fish_AB<-summarySE(Ngerumekaol_Fish_All, measurevar="Individuals_square_meter", groupvars=c("Year", "Habitat", "Protection"))
-Fish1<-ggplot(Fish_AB, aes(x=factor(Year), y=Individuals_square_meter,fill=factor(Protection)))+
-  facet_grid(Habitat~.)+
+#Tuna length
+Gonad_Length<-summarySE(PNMS_Gonad, measurevar="FL_cm", groupvars=c("Sex","Species"))
+Gonad1<-ggplot(Gonad_Length, aes(x=factor(Species), y=FL_cm,fill=factor(Sex)))+
   geom_col(position=position_dodge(0.9))+
-  labs(y = "Fish density (Individuals/m2)")+
+  labs(y = "Fish density (Tuna fork length in cm)")+
   scale_fill_manual(values=c("darkorange3","steelblue4"))+
-  geom_errorbar(aes(ymin=Individuals_square_meter-se, ymax=Individuals_square_meter+se),position=position_dodge(0.9), width=0.4)+
+  geom_errorbar(aes(ymin=FL_cm-se, ymax=FL_cm+se),position=position_dodge(0.9), width=0.4)+
   theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
         axis.text.x = element_text(size=11),axis.title.x=element_blank(),
         axis.text.y= element_text(size=11))
 
-Fish1
+Gonad1
 
-#Data without the Humpback Red Snapper
-Fish_AB<-summarySE(Ngerumekaol_Fish_All, measurevar="SANS_m2", groupvars=c("Year", "Habitat", "Protection"))
-Fish2<-ggplot(Fish_AB, aes(x=factor(Year), y=SANS_m2,fill=factor(Protection)))+
-  facet_grid(Habitat~.)+
+#Tuna weight
+Gonad_weight<-summarySE(PNMS_Gonad, measurevar="Total_weight_kg", groupvars=c("Sex","Species"))
+Gonad2<-ggplot(Gonad_weight, aes(x=factor(Species), y=Total_weight_kg,fill=factor(Sex)))+
   geom_col(position=position_dodge(0.9))+
-  geom_errorbar(aes(ymin=SANS_m2-se, ymax=SANS_m2+se),position=position_dodge(0.9), width=0.4)+
-  labs(y = "Fish density without Lutjanus gibbus (Individuals/m2)")+
+  labs(y = "Fish density (Tuna Weight in kg")+
   scale_fill_manual(values=c("darkorange3","steelblue4"))+
+  geom_errorbar(aes(ymin=Total_weight_kg-se, ymax=Total_weight_kg+se),position=position_dodge(0.9), width=0.4)+
   theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
         axis.text.x = element_text(size=11),axis.title.x=element_blank(),
         axis.text.y= element_text(size=11))
 
-Fish2
+Gonad2
+
+#Developed code up the here - need to edit below this
 
 #Kruskal-Wallis to look at overall changes across space and time
 require(FSA) 
