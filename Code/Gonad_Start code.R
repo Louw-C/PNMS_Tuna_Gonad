@@ -24,7 +24,7 @@ require(ggplot2)
 Gonad_Length<-summarySE(PNMS_Gonad, measurevar="FL_cm", groupvars=c("Sex","Species"))
 Gonad1<-ggplot(Gonad_Length, aes(x=factor(Species), y=FL_cm,fill=factor(Sex)))+
   geom_col(position=position_dodge(0.9))+
-  labs(y = "Fish density (Tuna fork length in cm)")+
+  labs(y = "Tuna fork length in cm")+
   scale_fill_manual(values=c("darkorange3","steelblue4"))+
   geom_errorbar(aes(ymin=FL_cm-se, ymax=FL_cm+se),position=position_dodge(0.9), width=0.4)+
   theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
@@ -37,7 +37,7 @@ Gonad1
 Gonad_weight<-summarySE(PNMS_Gonad, measurevar="Total_weight_kg", groupvars=c("Sex","Species"))
 Gonad2<-ggplot(Gonad_weight, aes(x=factor(Species), y=Total_weight_kg,fill=factor(Sex)))+
   geom_col(position=position_dodge(0.9))+
-  labs(y = "Fish density (Tuna Weight in kg")+
+  labs(y = "Tuna weight in kg")+
   scale_fill_manual(values=c("darkorange3","steelblue4"))+
   geom_errorbar(aes(ymin=Total_weight_kg-se, ymax=Total_weight_kg+se),position=position_dodge(0.9), width=0.4)+
   theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
@@ -45,6 +45,24 @@ Gonad2<-ggplot(Gonad_weight, aes(x=factor(Species), y=Total_weight_kg,fill=facto
         axis.text.y= element_text(size=11))
 
 Gonad2
+
+
+#GSI across time/species
+Gonad_GSI<-summarySE(PNMS_Gonad, measurevar="GSI", groupvars=c("Month", "Species"))
+Gonad3<-ggplot(Gonad_GSI, aes(x=factor(Month), y=GSI,fill=factor(Species)))+
+  geom_col(position=position_dodge(0.9))+
+  labs(y = "Tuna weight in kg")+
+  scale_fill_manual(values=c("darkorange3","steelblue4"))+
+  geom_errorbar(aes(ymin=GSI-se, ymax=GSI+se),position=position_dodge(0.9), width=0.4)+
+  theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
+        axis.text.x = element_text(size=11),axis.title.x=element_blank(),
+        axis.text.y= element_text(size=11))
+
+Gonad3
+
+
+#Plot fork length (cm) and weight (g)
+plot(PNMS_Gonad$FL_cm~PNMS_Gonad$Total_weight_g)
 
 #Developed code up the here - need to edit below this
 
