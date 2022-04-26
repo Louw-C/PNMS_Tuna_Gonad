@@ -25,7 +25,7 @@ BOFI1<-ggplot(BOFI_Total, aes(x=factor(Month), y=Abundance, fill=Type))+
         axis.text.y= element_text(size=11))
 BOFI1
 
-#Melt data
+#Change the format of the data from wide to long
 library(tidyr)
 
 # The arguments to gather():
