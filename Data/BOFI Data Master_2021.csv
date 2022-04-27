@@ -1,0 +1,692 @@
+Trip ID,Year,Month,Species,Grade,Weight_kg
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,51.3
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,59.5
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,61.8
+BOFI_07_08_2021,2021,July,Bigeye tuna,B+,44.1
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,44.8
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,39.9
+BOFI_07_08_2021,2021,July,Bigeye tuna,B+,29
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,42.8
+BOFI_07_08_2021,2021,July,Bigeye tuna,B ,27.9
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,40
+BOFI_07_08_2021,2021,July,Bigeye tuna,B+,38.7
+BOFI_07_08_2021,2021,July,Bigeye tuna,B+,40.2
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,49.5
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,54
+BOFI_07_08_2021,2021,July,Bigeye tuna,B ,35.5
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,46.5
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,63.6
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,46.8
+BOFI_07_08_2021,2021,July,Bigeye tuna,Not graded,41.3
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,30.2
+BOFI_07_08_2021,2021,July,Yellowfin tuna,B+,32.5
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,34.7
+BOFI_07_08_2021,2021,July,Yellowfin tuna,B+,20.7
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,34.3
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,40.8
+BOFI_07_08_2021,2021,July,Yellowfin tuna,B+,32.7
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,32.2
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,38.4
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,29.8
+BOFI_07_08_2021,2021,July,Bigeye tuna,A,34.8
+BOFI_07_08_2021,2021,July,Bigeye tuna,B+,35
+BOFI_07_08_2021,2021,July,Bigeye tuna,B+,41.2
+BOFI_07_08_2021,2021,July,Bigeye tuna,R,26.3
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,30
+BOFI_07_08_2021,2021,July,Yellowfin tuna,B ,27.6
+BOFI_07_08_2021,2021,July,Yellowfin tuna,R,21.5
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,38
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,28.7
+BOFI_07_08_2021,2021,July,Yellowfin tuna,B+,27.5
+BOFI_07_08_2021,2021,July,Yellowfin tuna,A,31.8
+BOFI_07_08_2021,2021,July,Yellowfin tuna,B+,30
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,37.7
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B+,27.8
+BOFI_07_21_2021,2021,July,Bigeye tuna,B+,31.6
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,39.4
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,33.7
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,36.3
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,36.8
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B ,25.6
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B+,35.3
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B+,32.2
+BOFI_07_21_2021,2021,July,Bigeye tuna,B+,51.4
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B ,38
+BOFI_07_21_2021,2021,July,Bigeye tuna,B ,29.1
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,40
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B+,31.6
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,39.5
+BOFI_07_21_2021,2021,July,Bigeye tuna,B+,53.2
+BOFI_07_21_2021,2021,July,Bigeye tuna,B+,25.5
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B+,25.8
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,36.7
+BOFI_07_21_2021,2021,July,Bigeye tuna,B+,55
+BOFI_07_21_2021,2021,July,Bigeye tuna,A,45.1
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,47.4
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B+,38.4
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,36.3
+BOFI_07_21_2021,2021,July,Bigeye tuna,A,46.8
+BOFI_07_21_2021,2021,July,Bigeye tuna,A,42.3
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,33.6
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,35
+BOFI_07_21_2021,2021,July,Bigeye tuna,A,28.8
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,29.8
+BOFI_07_21_2021,2021,July,Yellowfin tuna,A,27
+BOFI_07_21_2021,2021,July,Bigeye tuna,B+,55.4
+BOFI_07_21_2021,2021,July,Bigeye tuna,A,54.6
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B ,36.7
+BOFI_07_21_2021,2021,July,Yellowfin tuna,B+,36.6
+BOFI_08_2_2021,2021,August,Bigeye tuna,A,19.7
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,31
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,36.6
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,30.4
+BOFI_08_2_2021,2021,August,Bigeye tuna,A,39
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,29.4
+BOFI_08_2_2021,2021,August,Yellowfin tuna,B ,25.3
+BOFI_08_2_2021,2021,August,Bigeye tuna,B+,49.7
+BOFI_08_2_2021,2021,August,Yellowfin tuna,B+,38.4
+BOFI_08_2_2021,2021,August,Bigeye tuna,B+,42.5
+BOFI_08_2_2021,2021,August,Bigeye tuna,A,64.4
+BOFI_08_2_2021,2021,August,Bigeye tuna,R,47.5
+BOFI_08_2_2021,2021,August,Bigeye tuna,A,28.4
+BOFI_08_2_2021,2021,August,Bigeye tuna,A,46.2
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,36
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,33
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,35.3
+BOFI_08_2_2021,2021,August,Bigeye tuna,B+,39.1
+BOFI_08_2_2021,2021,August,Yellowfin tuna,R,37.5
+BOFI_08_2_2021,2021,August,Yellowfin tuna,B+,36.6
+BOFI_08_2_2021,2021,August,Bigeye tuna,A,39
+BOFI_08_2_2021,2021,August,Bigeye tuna,A,55.1
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,30
+BOFI_08_2_2021,2021,August,Yellowfin tuna,R,33.1
+BOFI_08_2_2021,2021,August,Yellowfin tuna,A,34.6
+BOFI_08_2_2021,2021,August,Albacore,Not graded,12.4
+BOFI_08_2_2021,2021,August,Albacore,Not graded,13.6
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,48.5
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,59
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,50.8
+BOFI_08_12_2021,2021,August,Bigeye tuna,B+,54.4
+BOFI_08_12_2021,2021,August,Bigeye tuna,B+,42.4
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,55.8
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,55.3
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,49
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,53
+BOFI_08_12_2021,2021,August,Yellowfin tuna,B ,31.8
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,46.5
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,42.4
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,53.6
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,62
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,66.1
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,36
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,45.6
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,38.5
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,28
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,37
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,48.2
+BOFI_08_12_2021,2021,August,Yellowfin tuna,B+,26.8
+BOFI_08_12_2021,2021,August,Yellowfin tuna,B+,37
+BOFI_08_12_2021,2021,August,Yellowfin tuna,B+,36.8
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,30.4
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,27.8
+BOFI_08_12_2021,2021,August,Yellowfin tuna,B ,32.7
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,42.2
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,37.5
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,43
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,36
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,36.2
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,45.8
+BOFI_08_12_2021,2021,August,Yellowfin tuna,A,30.6
+BOFI_08_12_2021,2021,August,Bigeye tuna,A,51.5
+BOFI_08_12_2021,2021,August,Albacore,Not graded,19.3
+BOFI_08_12_2021,2021,August,Albacore,Not graded,12
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,34.6
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,28.6
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,32.5
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B ,28
+BOFI_09_01_2021,2021,September,Bigeye tuna,B ,17.1
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,26.3
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,32.5
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B ,30
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B ,31.6
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,25.2
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,33
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,33
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,37.5
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,33.2
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,37.1
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,35.7
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B ,26.6
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,32.2
+BOFI_09_01_2021,2021,September,Bigeye tuna,A,54.5
+BOFI_09_01_2021,2021,September,Bigeye tuna,B+,37.7
+BOFI_09_01_2021,2021,September,Bigeye tuna,B+,62.3
+BOFI_09_01_2021,2021,September,Bigeye tuna,B+,51.7
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,36.5
+BOFI_09_01_2021,2021,September,Bigeye tuna,A,40.1
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,39.5
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,40.5
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,38
+BOFI_09_01_2021,2021,September,Bigeye tuna,A,59.4
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,45
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,36.5
+BOFI_09_01_2021,2021,September,Yellowfin tuna,R,18.2
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,38.4
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,33.7
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,37
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B ,36.6
+BOFI_09_01_2021,2021,September,Bigeye tuna,A,61.1
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B ,35.7
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,31
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,29
+BOFI_09_01_2021,2021,September,Bigeye tuna,A,42.7
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,49.2
+BOFI_09_01_2021,2021,September,Bigeye tuna,A,48.7
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,29.5
+BOFI_09_01_2021,2021,September,Bigeye tuna,B ,18.5
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,30.9
+BOFI_09_01_2021,2021,September,Bigeye tuna,A,28.9
+BOFI_09_01_2021,2021,September,Yellowfin tuna,B+,27.6
+BOFI_09_01_2021,2021,September,Yellowfin tuna,A,37.2
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B+,31.7
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,46.1
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,25.6
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,29
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,17.3
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B ,17.4
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,37.8
+BOFI_09_09_2021,2021,September,Yellowfin tuna,R,16.8
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,48.1
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,43.6
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,39
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,44.2
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,49.8
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,54.4
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,38.1
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,37.7
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,28.4
+BOFI_09_09_2021,2021,September,Bigeye tuna,B+,45
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,49.5
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,30.6
+BOFI_09_09_2021,2021,September,Bigeye tuna,B+,47.4
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,33.1
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B+,25.5
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,36
+BOFI_09_09_2021,2021,September,Yellowfin tuna,R,27.8
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,29.5
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B+,37.8
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,34.5
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,29.7
+BOFI_09_09_2021,2021,September,Bigeye tuna,B+,32.3
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,47.1
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,38.7
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,31.5
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B ,16.5
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B+,32.7
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B+,36.1
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B+,34.4
+BOFI_09_09_2021,2021,September,Bigeye tuna,B+,23.3
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,40
+BOFI_09_09_2021,2021,September,Bigeye tuna,B+,40
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,38.5
+BOFI_09_09_2021,2021,September,Bigeye tuna,A,41
+BOFI_09_09_2021,2021,September,Yellowfin tuna,A,30.5
+BOFI_09_09_2021,2021,September,Yellowfin tuna,B+,18.4
+BOFI_09_09_2021,2021,September,Yellowfin tuna,R,13.1
+BOFI_09_15_2021,2021,September,Bigeye tuna,A,53.4
+BOFI_09_15_2021,2021,September,Bigeye tuna,A,58.1
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,36.3
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,30.2
+BOFI_09_15_2021,2021,September,Bigeye tuna,A,45.6
+BOFI_09_15_2021,2021,September,Bigeye tuna,A,31
+BOFI_09_15_2021,2021,September,Bigeye tuna,A,43.1
+BOFI_09_15_2021,2021,September,Bigeye tuna,A,49.7
+BOFI_09_15_2021,2021,September,Yellowfin tuna,B+,24.6
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,35.2
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,27.5
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,35.7
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,32.8
+BOFI_09_15_2021,2021,September,Bigeye tuna,A,29
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,16.2
+BOFI_09_15_2021,2021,September,Yellowfin tuna,A,37.2
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,33.6
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,61.3
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,38
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,46.5
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,43.3
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,31.8
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,41.1
+BOFI_09_28_2021,2021,September,Yellowfin tuna,B+,16.4
+BOFI_09_28_2021,2021,September,Yellowfin tuna,B ,13.7
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,31.2
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,46
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,46
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,29.2
+BOFI_09_28_2021,2021,September,Bigeye tuna,B+,52
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,33.3
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,63
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,62.1
+BOFI_09_28_2021,2021,September,Yellowfin tuna,B ,26
+BOFI_09_28_2021,2021,September,Bigeye tuna,A,42.8
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,27
+BOFI_09_28_2021,2021,September,Yellowfin tuna,A,38.5
+BOFI_09_28_2021,2021,September,Yellowfin tuna,B ,16
+BOFI_10_13_2021,2021,October,Yellowfin tuna,A,28
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,31
+BOFI_10_13_2021,2021,October,Yellowfin tuna,A,40.2
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,45.1
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,59
+BOFI_10_13_2021,2021,October,Bigeye tuna,B+,33.3
+BOFI_10_13_2021,2021,October,Bigeye tuna,B+,34
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,30.1
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,48.3
+BOFI_10_13_2021,2021,October,Yellowfin tuna,A,36.5
+BOFI_10_13_2021,2021,October,Bigeye tuna,B+,47.7
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,61.6
+BOFI_10_13_2021,2021,October,Yellowfin tuna,B+,31.8
+BOFI_10_13_2021,2021,October,Yellowfin tuna,B ,31
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,44.4
+BOFI_10_13_2021,2021,October,Bigeye tuna,B+,40.8
+BOFI_10_13_2021,2021,October,Bigeye tuna,B+,48.2
+BOFI_10_13_2021,2021,October,Bigeye tuna,B ,31.7
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,40.7
+BOFI_10_13_2021,2021,October,Bigeye tuna,B ,41.5
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,42.1
+BOFI_10_13_2021,2021,October,Bigeye tuna,A,59.7
+BOFI_10_13_2021,2021,October,Yellowfin tuna,R,14.3
+BOFI_10_13_2021,2021,October,Yellowfin tuna,B ,15
+BOFI_10_13_2021,2021,October,Yellowfin tuna,A,17
+BOFI_10_13_2021,2021,October,Yellowfin tuna,B ,17
+BOFI_10_13_2021,2021,October,Bigeye tuna,B+,58.7
+BOFI_10_26_2021,2021,October,Yellowfin tuna,A,16.1
+BOFI_10_26_2021,2021,October,Yellowfin tuna,B+,17
+BOFI_10_26_2021,2021,October,Yellowfin tuna,B+,22.2
+BOFI_10_26_2021,2021,October,Bigeye tuna,B+,42
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,58.1
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,45.5
+BOFI_10_26_2021,2021,October,Bigeye tuna,B+,41.3
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,56
+BOFI_10_26_2021,2021,October,Bigeye tuna,B ,47.7
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,44.2
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,47.1
+BOFI_10_26_2021,2021,October,Bigeye tuna,B+,20
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,36.5
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,40
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,30.4
+BOFI_10_26_2021,2021,October,Bigeye tuna,A,49.5
+BOFI_10_26_2021,2021,October,Bigeye tuna,B+,19.1
+BOFI_10_26_2021,2021,October,Albacore,Not graded,13.6
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,61.2
+BOFI_11_11_2021,2021,November,Bigeye tuna,B+,50.4
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,48.6
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,48.5
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,49
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,45.5
+BOFI_11_11_2021,2021,November,Yellowfin tuna,A,38.2
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,52.4
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,53
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,41.3
+BOFI_11_11_2021,2021,November,Yellowfin tuna,B ,29.8
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,29.5
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,57.6
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,53.8
+BOFI_11_11_2021,2021,November,Bigeye tuna,B+,64.1
+BOFI_11_11_2021,2021,November,Yellowfin tuna,B+,24.8
+BOFI_11_11_2021,2021,November,Yellowfin tuna,A,32.8
+BOFI_11_11_2021,2021,November,Bigeye tuna,B+,32.8
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,42.1
+BOFI_11_11_2021,2021,November,Bigeye tuna,B ,33
+BOFI_11_11_2021,2021,November,Yellowfin tuna,B ,28
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,43.6
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,40.8
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,42.1
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,20
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,47.3
+BOFI_11_11_2021,2021,November,Bigeye tuna,B+,48.6
+BOFI_11_11_2021,2021,November,Bigeye tuna,B+,29.6
+BOFI_11_11_2021,2021,November,Bigeye tuna,A,44
+BOFI_11_11_2021,2021,November,Yellowfin tuna,B+,14.3
+BOFI_11_23_2021,2021,November,Bigeye tuna,B+,32.8
+BOFI_11_23_2021,2021,November,Yellowfin tuna,A,34.4
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,52
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,53.1
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,41.7
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,35.4
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,38.5
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,39.8
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,41
+BOFI_11_23_2021,2021,November,Bigeye tuna,A,45.8
+BOFI_11_23_2021,2021,November,Bigeye tuna,B ,43.4
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,50.3
+BOFI_12_9_2021,2021,December,Bigeye tuna,B+,47.4
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,54.2
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,55.3
+BOFI_12_9_2021,2021,December,Bigeye tuna,B+,50.2
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,54
+BOFI_12_9_2021,2021,December,Bigeye tuna,B ,17.1
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,62.1
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,49
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,40.1
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,41.7
+BOFI_12_9_2021,2021,December,Bigeye tuna,A,48
+BOFI_12_9_2021,2021,December,Yellowfin tuna,Not graded,27
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,41
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,58.6
+BOFI_12_27_2021,2021,December,Yellowfin tuna,A,33
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B+,13.6
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,33
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,37.4
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,36.5
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B+,29.8
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B+,11.8
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B+,31.1
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,22
+BOFI_12_27_2021,2021,December,Yellowfin tuna,A,28
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,53.2
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,44.5
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B ,12.1
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,33
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,43.7
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,38
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B ,12.3
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,46.1
+BOFI_12_27_2021,2021,December,Yellowfin tuna,A,39.3
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B+,32.5
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,67.1
+BOFI_12_27_2021,2021,December,Yellowfin tuna,A,36.4
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,42.6
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,51.2
+BOFI_12_27_2021,2021,December,Bigeye tuna,B+,44
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,37.8
+BOFI_12_27_2021,2021,December,Yellowfin tuna,B+,13.2
+BOFI_12_27_2021,2021,December,Bigeye tuna,A,42.6
+BOFI_12_27_2021,2021,December,Bigeye tuna,B ,27.2
+BOFI_12_27_2021,2021,December,Yellowfin tuna,Not graded,29.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,8.4
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,11.7
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,11
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,35
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,37.8
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,53
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,56.2
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,13.3
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,28.1
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,10.5
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,44.3
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,40.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,28.6
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,11.6
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,25.8
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,11.3
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,12
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,49.6
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,23.2
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,22.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,14.2
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,36.6
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,62.4
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,11.1
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,61.2
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,56.6
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,11.1
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,11.4
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,14.3
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,13.7
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,15.8
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,28.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,16.2
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,33.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,32
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,32
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,32.7
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,14
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,23.6
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,12.2
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,20
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,41
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,14.1
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,18.7
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,30.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,13.2
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,13
+BOFI_1_19_2022,2022,January,Bigeye tuna,R,25.3
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,13
+BOFI_1_19_2022,2022,January,Bigeye tuna,B+,24.7
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,12.7
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,49
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,23
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,13.3
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,23.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,12
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,11.1
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,19.4
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,11.6
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,13.1
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,22
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,20.7
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,34.8
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,30.4
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B ,16.6
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,11
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,12.4
+BOFI_1_19_2022,2022,January,Yellowfin tuna,R,13
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,42.4
+BOFI_1_19_2022,2022,January,Albacore,Not graded,13.7
+BOFI_1_19_2022,2022,January,Albacore,Not graded,18
+BOFI_1_19_2022,2022,January,Albacore,Not graded,26.5
+BOFI_1_19_2022,2022,January,Albacore,Not graded,16.3
+BOFI_1_19_2022,2022,January,Albacore,Not graded,16.3
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,23.8
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,38.8
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,23.6
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,39.5
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,37.2
+BOFI_1_19_2022,2022,January,Bigeye tuna,B+,90.2
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,34.7
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,46.4
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,32.7
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,26
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,22.5
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,60.2
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,17.1
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,23.4
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,42
+BOFI_1_19_2022,2022,January,Yellowfin tuna,A,20.2
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,39.8
+BOFI_1_19_2022,2022,January,Yellowfin tuna,B+,19
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,34
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,23.5
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,57.6
+BOFI_1_19_2022,2022,January,Bigeye tuna,A,54.7
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,15.7
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,33.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,31.7
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,20.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,30.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,19.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,15.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,14
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,31
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,14
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,34.8
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,33.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,34
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,50.3
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,45.3
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,47.6
+BOFI_2_8_2022,2022,February,Bigeye tuna,B+,44.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,30.2
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,36
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,15.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,19.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,38.2
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,44.4
+BOFI_2_8_2022,2022,February,Albacore,Not graded,16.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,15.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,35.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,21.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,40
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,47.7
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,42.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,21.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,18.5
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,13.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,21.5
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,36
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,33.1
+BOFI_2_8_2022,2022,February,Albacore,Not graded,13.7
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,14.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,10.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,14.3
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,10.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,13.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,15.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,14
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,13.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,12.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,12.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,11
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,12.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12.5
+BOFI_2_8_2022,2022,February,Bigeye tuna,B+,11.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,14.5
+BOFI_2_8_2022,2022,February,Albacore,Not graded,18.9
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,20.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,15.6
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,48.7
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,46.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,16.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,15.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12
+BOFI_2_8_2022,2022,February,Bigeye tuna,B+,21.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,14.1
+BOFI_2_8_2022,2022,February,Albacore,Not graded,19
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,15.3
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,22.6
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,42.6
+BOFI_2_8_2022,2022,February,Bigeye tuna,B+,35.5
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,56.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,36.3
+BOFI_2_8_2022,2022,February,Bigeye tuna,B+,23
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,13.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,12.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,13
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,13.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,12.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,13.1
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,16.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,21.2
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,29.2
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,58
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,34.2
+BOFI_2_8_2022,2022,February,Bigeye tuna,R,38
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,19.5
+BOFI_2_8_2022,2022,February,Albacore,Not graded,18
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,10.6
+BOFI_2_8_2022,2022,February,Albacore,Not graded,19.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,14.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,14.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,13.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,13.1
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,21.1
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,19.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,12.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,21.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,28
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,13.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,11.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,20.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,15.8
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,26.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12.7
+BOFI_2_8_2022,2022,February,Bigeye tuna,R,23.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,17.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,14.3
+BOFI_2_8_2022,2022,February,Albacore,Not graded,18.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,18.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,15.3
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,41.2
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,44.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,Not graded,13.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,11.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,23.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,15.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,14
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,12.7
+BOFI_2_8_2022,2022,February,Albacore,Not graded,15.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,24.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,17.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,31.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,34.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,11.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,33.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,37
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,14.1
+BOFI_2_8_2022,2022,February,Bigeye tuna,A,44.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,12
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,13
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,13.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,12.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,13
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,23
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,25
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,28.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,19
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,12.5
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,13.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,13.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,19.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,16
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,21.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,A,12.8
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,13.4
+BOFI_2_8_2022,2022,February,Bigeye tuna,B+,40
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,18.4
+BOFI_2_8_2022,2022,February,Bigeye tuna,B ,23.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,12.1
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,20.5
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,17.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,12.3
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,21.4
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,13.2
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B+,30.6
+BOFI_2_8_2022,2022,February,Yellowfin tuna,R,13.7
+BOFI_2_8_2022,2022,February,Yellowfin tuna,B ,13.7
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,89.9
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,56.4
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,61.4
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,57
+BOFI_3_2_2022,2022,March,Yellowfin tuna,A,31.2
+BOFI_3_2_2022,2022,March,Yellowfin tuna,A,36.3
+BOFI_3_2_2022,2022,March,Bigeye tuna,B ,42
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,48
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,56.1
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,45.8
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,41.1
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,59.6
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,51.7
+BOFI_3_2_2022,2022,March,Yellowfin tuna,A,36.4
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,55.3
+BOFI_3_2_2022,2022,March,Yellowfin tuna,A,24
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,56
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,50.7
+BOFI_3_2_2022,2022,March,Yellowfin tuna,A,34.1
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,67.8
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,49
+BOFI_3_2_2022,2022,March,Yellowfin tuna,A,38.2
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,59.3
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,48.4
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,33.1
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,51.2
+BOFI_3_2_2022,2022,March,Bigeye tuna,A,49
+BOFI_3_2_2022,2022,March,Yellowfin tuna,B ,35.8
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,53.5
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,40.1
+BOFI_3_2_2022,2022,March,Bigeye tuna,B+,64.8
+BOFI_3_2_2022,2022,March,Yellowfin tuna,B+,23.1
+BOFI_3_2_2022,2022,March,Yellowfin tuna,A,38.5
