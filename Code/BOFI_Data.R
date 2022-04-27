@@ -50,18 +50,25 @@ sans_albacore<-subset(BOFI_weight, Species!="Albacore")
 sans_albacore<-subset(sans_albacore, Grade!="Not graded")
 
 ggplot(sans_albacore, aes(x = Weight_kg,)) +
-  geom_histogram(fill = "white", colour = "black")
+  geom_histogram(fill = "white", colour = "black", bins=100)
 
 ggplot(sans_albacore, aes(x = Weight_kg,)) +
-  geom_histogram(fill = "white", colour = "black") +
+  geom_histogram(fill = "white", colour = "black", bins=100) +
   facet_grid(Species~.)
 
 ggplot(sans_albacore, aes(x = Weight_kg,)) +
-  geom_histogram(fill = "white", colour = "black") +
+  geom_histogram(fill = "white", colour = "black", bins=50) +
   facet_grid(Species~Grade)
 
 ggplot(BOFI_weight, aes(x = Weight_kg, fill=Species)) +
-  geom_histogram(fill = "white", colour = "black") +
+  geom_histogram(fill = "white", colour = "black", bins=50) +
   facet_grid(Grade~.)
 
 sans_albacore$Grade <- factor(sans_albacore$Grade, levels = c("A","B+","B","R"))
+
+#Remove outliers
+sans_outliers<-subset(sans_albacore,Weight_kg<75)
+
+ggplot(sans_outliers, aes(x = Weight_kg,)) +
+  geom_histogram(fill = "white", colour = "black", bins=50) +
+  facet_grid(Species~Grade)
