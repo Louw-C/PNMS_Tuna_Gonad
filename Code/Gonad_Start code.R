@@ -69,7 +69,52 @@ Gonad3
 Gonad_GSI$Month <- factor(Gonad_GSI$Month, levels = c( "September","October", "November","December","January","February", "March"))
 
 
-#Plot fork length (cm) and weight (g)
-plot(PNMS_Gonad$FL_cm~PNMS_Gonad$Total_weight_g)
+#Plot fish weight and gonad weight (g)
+plot(PNMS_Gonad$Gonad_weight_g~PNMS_Gonad$Total_weight_g)
 
-#Developed code up the here - need to edit below this
+
+#Separate YFT and BET
+
+YFT<-subset(PNMS_Gonad, Species_Common!="Big Eye")
+BET<-subset(PNMS_Gonad, Species_Common!="Yellowfin Tuna")
+
+#Plot a histogram for each - sizes
+
+YFT_Sizes<-ggplot(YFT, aes(x = FL_cm, fill=Sex)) +
+  geom_histogram(position = "identity", alpha = 0.4, binwidth=5)
+
+YFT_Sizes
+
+BET_Sizes<-ggplot(BET, aes(x = FL_cm, fill=Sex)) +
+  geom_histogram(position = "identity", alpha = 0.4, binwidth=5)
+
+BET_Sizes
+
+
+#Look at GSI per species
+YFT_GSI<-summarySE(YFT, measurevar="GSI", groupvars=c("Month", "Sex"))
+YFT_Plot<-ggplot(YFT_GSI, aes(x=factor(Month), y=GSI,fill=factor(Sex)))+
+  geom_col(position=position_dodge(0.9))+
+  labs(y = "Average YFT GSI per month")+
+  scale_fill_manual(values=c("darkorange3","steelblue4"))+
+  geom_errorbar(aes(ymin=GSI-se, ymax=GSI+se),position=position_dodge(0.9), width=0.4)+
+  theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
+        axis.text.x = element_text(size=11),axis.title.x=element_blank(),
+        axis.text.y= element_text(size=11))
+YFT_Plot
+YFT_GSI$Month <- factor(YFT_GSI$Month , levels = c( "September","October", "November","December","January","February", "March"))
+
+
+BET_GSI<-summarySE(BET, measurevar="GSI", groupvars=c("Month", "Sex"))
+BET_Plot<-ggplot(BET_GSI, aes(x=factor(Month), y=GSI,fill=factor(Sex)))+
+  geom_col(position=position_dodge(0.9))+
+  labs(y = "Average BET GSI per month")+
+  scale_fill_manual(values=c("darkorange3","steelblue4"))+
+  geom_errorbar(aes(ymin=GSI-se, ymax=GSI+se),position=position_dodge(0.9), width=0.4)+
+  theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
+        axis.text.x = element_text(size=11),axis.title.x=element_blank(),
+        axis.text.y= element_text(size=11))
+BET_Plot
+BET_GSI$Month <- factor(BET_GSI$Month , levels = c( "September","October", "November","December","January","February", "March"))
+
+
