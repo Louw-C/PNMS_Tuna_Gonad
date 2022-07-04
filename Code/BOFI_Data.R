@@ -6,7 +6,6 @@ library(ggplot2)
 library(car)
 
 
-
 #BOFI data
 #Load data
 PNMS_BOFI<-read.csv(file.choose(),header=T,sep=",")
