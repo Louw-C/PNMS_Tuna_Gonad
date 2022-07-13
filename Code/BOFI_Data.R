@@ -4,7 +4,8 @@ library(reshape)
 library(reshape2)
 library(ggplot2)
 library(car)
-
+require(Rmisc)
+require(ggplot2)
 
 #BOFI data
 #Load data
@@ -20,15 +21,18 @@ library(tidyr)
 # - value: Name of new value column
 # - ...: Names of source columns that contain values
 # - factor_key: Treat the new key column as a factor (instead of character vector)
+#Data now gives all types if fish in long format.
 data_long <- gather(PNMS_BOFI, Type, Abundance, Big.eye:Skipjack, factor_key=TRUE)
 names(data_long)
 
-require(Rmisc)
-require(ggplot2)
+#Group data to months - to plot total number of fish per month. 
 BOFI_Month_All<-data_long%>%
   group_by(Month, Type) %>%
   summarize(Abundance=sum(Abundance))
-#Total catch per month (Cannot do daily average, as number of days/month varies)
+
+#Total number of fish caught per month - grouped into types 
+#(note that number of trips/effort varies across months)
+
 BOFI1<-ggplot(BOFI_Month_All, aes(x=factor(Month), y=Abundance, fill=Type))+
   geom_col(position=position_dodge(0.9))+
   labs(y = "Total monthly catch (number of fish)")+
@@ -68,14 +72,15 @@ ggplot(BOFI_weight, aes(x = Weight_kg, fill=Species)) +
 
 sans_albacore$Grade <- factor(sans_albacore$Grade, levels = c("A","B+","B","R"))
 
-#Remove outliers
+#Remove outliers just for interest
 sans_outliers<-subset(sans_albacore,Weight_kg<75)
 
 ggplot(sans_outliers, aes(x = Weight_kg,)) +
   geom_histogram(fill = "white", colour = "black", bins=50) +
   facet_grid(Species~Grade)
 
-#Plot tuna weight
+#Plot tuna weight monthly averages - incudes all tuna and outliers
+
 Tuna_Weight<-summarySE(BOFI_weight, measurevar="Weight_kg", groupvars=c("Month","Species"))
 BOFI2<-ggplot(Tuna_Weight, aes(x=factor(Month), y=Weight_kg, fill=Species))+
   geom_col(position=position_dodge(0.9))+
@@ -88,13 +93,7 @@ BOFI2
 BOFI_weight$Month <- factor(BOFI_weight$Month, levels = c("June","July","August", "September","October", "November","December","January","February", "March"))
 
 
-library(readxl)
-library(dplyr)
-library(reshape)
-library(reshape2)
-library(ggplot2)
-library(car)
-
+#group weights per month to plot total catch in kg per month for different species.
 BOFI_Month<-BOFI_weight%>%
   group_by(Month, Species, Grade) %>%
   summarize(Weight_kg=sum(Weight_kg))
