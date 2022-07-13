@@ -21,16 +21,19 @@ library(tidyr)
 # - ...: Names of source columns that contain values
 # - factor_key: Treat the new key column as a factor (instead of character vector)
 data_long <- gather(PNMS_BOFI, Type, Abundance, Big.eye:Skipjack, factor_key=TRUE)
-data_long
+names(data_long)
 
 require(Rmisc)
 require(ggplot2)
+BOFI_Month_All<-data_long%>%
+  group_by(Month, Type) %>%
+  summarize(Abundance=sum(Abundance))
 #Total catch per month (Cannot do daily average, as number of days/month varies)
-BOFI1<-ggplot(data_long, aes(x=factor(Month), y=Abundance, fill=Type))+
+BOFI1<-ggplot(BOFI_Month_All, aes(x=factor(Month), y=Abundance, fill=Type))+
   geom_col(position=position_dodge(0.9))+
-  labs(y = "Total monthly catch")+
+  labs(y = "Total monthly catch (number of fish)")+
   theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
-        axis.text.x = element_text(size=11),axis.title.x=element_blank(),
+        axis.text.x = element_text(size=11, angle=90),axis.title.x=element_blank(),
         axis.text.y= element_text(size=11))
 BOFI1
 
@@ -71,3 +74,36 @@ sans_outliers<-subset(sans_albacore,Weight_kg<75)
 ggplot(sans_outliers, aes(x = Weight_kg,)) +
   geom_histogram(fill = "white", colour = "black", bins=50) +
   facet_grid(Species~Grade)
+
+#Plot tuna weight
+Tuna_Weight<-summarySE(BOFI_weight, measurevar="Weight_kg", groupvars=c("Month","Species"))
+BOFI2<-ggplot(Tuna_Weight, aes(x=factor(Month), y=Weight_kg, fill=Species))+
+  geom_col(position=position_dodge(0.9))+
+  labs(y = "Average monthly weight of catch (kg)")+
+  geom_errorbar(aes(ymin=Weight_kg-se, ymax=Weight_kg+se),position=position_dodge(0.9), width=0.4)+
+  theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
+        axis.text.x = element_text(size=11, angle=90),axis.title.x=element_blank(),
+        axis.text.y= element_text(size=11))
+BOFI2
+BOFI_weight$Month <- factor(BOFI_weight$Month, levels = c("June","July","August", "September","October", "November","December","January","February", "March"))
+
+
+library(readxl)
+library(dplyr)
+library(reshape)
+library(reshape2)
+library(ggplot2)
+library(car)
+
+BOFI_Month<-BOFI_weight%>%
+  group_by(Month, Species, Grade) %>%
+  summarize(Weight_kg=sum(Weight_kg))
+
+BOFI3<-ggplot(BOFI_Month, aes(x=factor(Month), y=Weight_kg, fill=Species))+
+  geom_col(position=position_dodge(0.9))+
+  labs(y = "Total monthly weight of catch (kg)")+
+  theme(legend.title = element_blank(),panel.background = element_blank(),panel.grid.major=element_line(0.5, colour="Gray80"),
+        axis.text.x = element_text(size=11, angle=90),axis.title.x=element_blank(),
+        axis.text.y= element_text(size=11))
+BOFI3
+BOFI_Month$Month <- factor(BOFI_Month$Month, levels = c("June","July","August", "September","October", "November","December","January","February", "March"))
